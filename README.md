@@ -50,4 +50,17 @@ cat ~/.config/code-server/config.yaml
 
 Bu adımı tamamladıktan sonra, yerel ağınız ile kendinizin bağlantısını kesip, serverınıza internetten erişebilirsiniz.
 
-Burada yapmamız gereken
+Son olarak işinizi kolaştıracak bir script göstereceğim. "xx.xx.xx.xx" yazan kısma ev ağınızın, internete çıkmak izin kullandığı ip adresinizi yazın.
+```Bash
+echo "cat ~/.config/code-server/config.yaml
+echo "ip: xx.xx.xx.xx"
+code-server --port 22 --host 0.0.0.0" >> script.sh
+```
+Artık tek bir komut ile ihtiyacınız olan her şeye ulaşabilirsiniz.
+```Bash
+bash script.sh
+```
+<img width="1305" alt="Ekran Resmi 2023-09-09 14 36 50" src="https://github.com/Muratmirsad/raspberry-vscode-server/assets/57044743/a7854dbe-65a8-4a44-b32b-917f3871364a">
+
+
+## İyi günler dilerim :)
