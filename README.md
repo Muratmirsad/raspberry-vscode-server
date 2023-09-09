@@ -7,12 +7,10 @@ Merhaba, bu dökümanda raspberry pi 4b ile kurduğum VS Code serverını nasıl
 sudo apt install nodejs npm
 ```
 
-
 Şimdi ise VS Code server sürümünü kuralım
 ```Bash
 npm install -g code-server
 ```
-
 
 Artık VS Code serverı başlatmak için hazırız
 ```Bash
@@ -28,8 +26,7 @@ sudo ufw allow 22
 sudo ufw reload
 ```
 
-
-Server ipmizin 192.168.1.2 olduğunu varsayalım. Serverınız ile aynı ağda bulunun herhangi bir cihazdan şu adrese gitmeyi deneyin.
+Server ipmizin 192.168.1.2 olduğunu varsayalım. Serverınız ile aynı ağda bulunun herhangi bir cihazdan tarayızı kullanarak şu adrese gitmeyi deneyin.
 ```URL
 192.168.1.2:22
 ```
