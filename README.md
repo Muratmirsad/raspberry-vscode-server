@@ -2,17 +2,17 @@
 
 Merhaba, bu dökümanda raspberry pi 4b ile kurduğum VS Code serverını nasıl kurduğumu anlatacağım anlatacağım.<br>
 
-İlk olarak Node.js kuralım
+İlk olarak Node.js kuralım.
 ```Bash
 sudo apt install nodejs npm
 ```
 
-Şimdi ise VS Code server sürümünü kuralım
+Şimdi ise VS Code server sürümünü kuralım.
 ```Bash
 npm install -g code-server
 ```
 
-Artık VS Code serverı başlatmak için hazırız
+Artık VS Code serverı başlatmak için hazırız.
 ```Bash
 code-server --host 0.0.0.0 --port 22
 ```
