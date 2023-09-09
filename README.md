@@ -18,7 +18,7 @@ code-server --host 0.0.0.0 --port 22
 ```
 Serverı "--host 0.0.0.0" parametresi ile, tüm iplerden gelen isteklere ve "--port 22" ile sadece 22 portundan gelen isteklere açtık. Bu yaptığımız işlem ile VS Code'u sadece yerel ağınızda kullanabilirsiniz. İstersen öncelikle bir test edelim.
 
-## ❕ Not: Parametre olarak verdiğiniz portu, güvenlik duvarınızdan da izin vermeniz gerekiyor. Eğer UFW kullanıyorsanız bu şekilde yapabilirisniz.
+#### ❕ Not: Parametre olarak verdiğiniz portu, güvenlik duvarınızdan da izin vermeniz gerekiyor. Eğer UFW kullanıyorsanız bu şekilde yapabilirisniz.
 ```Bash
 sudo ufw allow 22
 ```
