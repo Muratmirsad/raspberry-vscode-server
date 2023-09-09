@@ -38,6 +38,6 @@ Varsayılan olarak atanan şifreye buradan ulaşabilir veya isterseniz değişti
 cat ~/.config/code-server/config.yaml
 ```
 
-<br>Buraya kadar her şey tamamsa, şimdi serverımıza internetten erişmek için ayarlamalar yapalım. Yapacağımız işlemi basit bir şekilde çizdim.
+<br>Buraya kadar her şey tamamsa, şimdi serverımıza internetten erişmek için ayarlamalar yapalım. Kendi evimdeki ağı basit bir şekilde çizdim.
 
 <img width="1173" alt="Ekran Resmi 2023-09-09 12 57 57" src="https://github.com/Muratmirsad/raspberry-vscode-server/assets/57044743/6fe5dbbc-0ee3-41b0-a16d-3a114959458c">
