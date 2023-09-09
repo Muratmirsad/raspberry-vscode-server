@@ -1,6 +1,6 @@
 # Raspberry Pi ile VS Code server kurulumu
 
-Merhaba, bu dökümanda raspberry pi 4b ile kurduğum VS Code serverını nasıl kurduğumu anlatacağım anlatacağım.<br>
+Merhaba, bu dökümanda raspberry pi 4b ile kurduğum VS Code serverını nasıl kurduğumu anlatacağım.<br>
 
 İlk olarak Node.js kuralım.
 ```Bash
