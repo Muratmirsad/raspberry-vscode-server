@@ -1,6 +1,6 @@
 # Raspberry Pi ile VS Code server kurulumu
 
-Merhaba, bu dökümanda raspberry pi 4b ile kurduğum VS Code serverını nasıl kurduğumu anlatacağım.<br>
+Merhaba, bu dokümanda raspberry pi 4b ile kurduğum VS Code serverını nasıl kurduğumu anlatacağım.<br>
 
 İlk olarak Node.js kuralım.
 ```Bash
@@ -47,6 +47,7 @@ cat ~/.config/code-server/config.yaml
 
 Öncelikle, internete çıkmak için kullandığınız routerın arayüzüne giriş yapın. Örnek olarak 22 portuna gelen istekleri servera yönlendireceğim.
 
+<img width="1217" alt="Ekran Resmi 2023-09-10 14 13 40" src="https://github.com/Muratmirsad/raspberry-vscode-server/assets/57044743/7864307e-3c8a-4f2a-bb0f-4fc51a37c3a3">
 
 Bu adımı tamamladıktan sonra, yerel ağınız ile kendinizin bağlantısını kesip, serverınıza internetten erişebilirsiniz.
 
